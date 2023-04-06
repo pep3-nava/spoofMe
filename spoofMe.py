@@ -1,8 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
 
-# Autor: Marcelo Vázquez (aka s4vitar)
-
 import re, shutil, tempfile, signal
 import requests
 import sys
@@ -112,7 +110,7 @@ def call_spoofing():
 banner = "\n╱╱╱╱╱╱╱╱╱╱╱╱╱╭━┳━╮╭━╮\n"
 banner += "╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭┫┃╰╯┃┃\n"
 banner += "╭━━┳━━┳━━┳━━┳╯╰┫╭╮╭╮┣━━╮\n"
-banner += "┃━━┫╭╮┃╭╮┃╭╮┣╮╭┫┃┃┃┃┃┃━┫" + bcolors.WARNING + " (Owner Marcelo Vázquez - aka " + bcolors.ENDC + bcolors.OKBLUE + "s4vitar" + bcolors.ENDC + bcolors.WARNING + ")\n" + bcolors.ENDC
+banner += "┃━━┫╭╮┃╭╮┃╭╮┣╮╭┫┃┃┃┃┃┃━┫" 
 banner += "┣━━┃╰╯┃╰╯┃╰╯┃┃┃┃┃┃┃┃┃┃━┫\n"
 banner += "╰━━┫╭━┻━━┻━━╯╰╯╰╯╰╯╰┻━━╯\n"
 banner += "╱╱╱┃┃\n"
